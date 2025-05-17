@@ -1,0 +1,107 @@
+.app-layout {
+  background: black;
+  .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #232121;
+    padding: 20px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    .app-name {
+      display: flex;
+      align-items: center;
+      height: 35px;
+      color: black;
+      background: #f5c518;
+      font-size: 22px;
+      font-weight: 900;
+      margin-left: 10px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+
+  .app-body {
+    min-height: 87vh;
+    width: 100%;
+    padding: 10px 20px;
+    .search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 0;
+      position: sticky;
+      top: 64px;
+      background: #f6f8fc;
+      z-index: 3;
+
+      .search {
+        width: 400px;
+        min-width: 100px;
+      }
+    }
+    .no-data {
+      height: 87vh;
+      div {
+        height: calc(100% - 100px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.user-card {
+  .ant-card-cover {
+    height: 200px;
+    img {
+      height: inherit;
+    }
+  }
+  .ant-card-body {
+    margin-top: 10px;
+  }
+}
+.icon {
+  padding: 10px 40px;
+}
+
+.liked,
+.like {
+  color: red;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.text-primary {
+  color: #f5c518;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.secodary-black-bg {
+  background: #232121;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+.m-0 {
+  margin: 0px !important;
+}
+.p-0 {
+  padding: 0px !important;
+}
